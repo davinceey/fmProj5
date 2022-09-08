@@ -95,7 +95,7 @@ body {
   color: var(--clr-primary-400);
 }
 .container {
-  width: min(40%,24rem);
+  width: 24rem;
   transition: all .2s;
 }
 
