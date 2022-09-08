@@ -78,9 +78,11 @@ svg {
   }
 }
 
-/* @media(max-width:376px){
-    ma
-} */
+@media(max-width:376px){
+    .container{
+        max-width: 21rem;
+    }
+}
 
 /*Utility classes*/
 body {
