@@ -22,8 +22,6 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-My greatest challenge was trying to ensure that my content was responsive in mobile layouts. Tried the clamp() and min() but to no avail. Please I would need sugestions on how ti improve my design.
-
 ### Screenshot
 
 ![Project Preview](./images/order-component.png)

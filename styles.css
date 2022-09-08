@@ -114,7 +114,6 @@ body {
 }
 
 .card-sub {
-  /* padding: 2.5rem; */
   display: flex;
   justify-content: space-around;
   align-items: center;
