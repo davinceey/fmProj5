@@ -87,12 +87,11 @@ body {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
-  background-color: var(--clr-neutral-400);
   font-family: "Red Hat Display", sans-serif;
   font-size: var(--fs-400);
   color: var(--clr-primary-400);
-  background-image: url("images/pattern-background-desktop.svg");
-  background-size: cover;
+  background: url("images/pattern-background-desktop.svg") no-repeat top center var(--clr-neutral-400);
+  background-size: contain;
 }
 .container {
   max-width: 24rem;
