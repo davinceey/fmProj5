@@ -78,11 +78,7 @@ svg {
   }
 }
 
-@media(max-width:376px){
-    .container{
-        max-width: 21rem;
-    }
-}
+
 
 /*Utility classes*/
 body {
@@ -104,6 +100,16 @@ body {
 .container:hover{
     transform: scale(1.05);
 }
+
+@media(max-width: 390px){
+    .container{
+        max-width: 19rem;
+    }
+    .card-sub{
+        max-width: 15em;
+        height: 28em;
+    }
+}
 .card {
   background-color: white;
   min-height: 27rem;
@@ -122,7 +128,8 @@ body {
   min-height: 24em;
   max-width: 19em;
   flex-direction: column;
-  flex-wrap: nowrap;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  /* flex-wrap: nowrap; */
 }
 h1 {
   font-size: 1.5rem;
@@ -132,6 +139,9 @@ h1 {
   padding-bottom: 0;
   position: relative;
   top: 0.5rem;
+}
+p{
+    font-size: var(--fs-400);
 }
 .expos {
   max-width: 18.9rem;
